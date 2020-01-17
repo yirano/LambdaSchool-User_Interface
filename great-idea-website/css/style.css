@@ -1,0 +1,18 @@
+body {
+	width: 1024px;
+}
+
+section {
+	border-top: 1px solid black;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
