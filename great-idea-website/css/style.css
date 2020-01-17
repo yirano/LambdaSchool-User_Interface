@@ -60,17 +60,36 @@ nav a::after {
 	float: right;
 }
 
+.container {
+	margin: 0 auto;
+}
+
 section {
 	border-top: 1px solid black;
 }
 
-.container {
-	text-align: center;
-	margin: 0 auto;
+section div {
+	display: inline-block;
+}
+
+.about-container {
+	padding: 40px 0;
+}
+
+.about-content p {
+	text-align: left;
+}
+
+.two-column {
+	width: 49%;
+}
+
+.three-column {
+	width: 33%;
 }
 
 .middle-img {
 	display: inline-block;
-	margin: 0 auto;
+	padding: 40px 0;
 	text-align: center;
 }
