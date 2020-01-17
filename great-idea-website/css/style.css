@@ -20,13 +20,44 @@ nav ul li {
 	margin: 0 20px;
 }
 
-nav ul li:last-child {
-	right: 0;
-}
-
-nav a img {
+nav a {
 	float: right;
 	margin-top: -10px;
+}
+
+nav a::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.header-left {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	padding: 75px;
+	text-align: center;
+}
+
+.header-left h1 {
+	font-size: 5em;
+}
+
+.header-left button {
+	margin: 0 auto;
+	padding: 7px 45px;
+	background-color: transparent;
+	border: 1px solid rgb(100, 100, 100);
+	font-size: 1em;
+}
+
+.header-right {
+	width: 49%;
+	display: inline-block;
+}
+
+.header-right img {
+	float: right;
 }
 
 section {
