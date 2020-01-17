@@ -1,6 +1,7 @@
 body {
 	width: 1024px;
 	padding: 0px 75px;
+	font-size: 16px;
 }
 
 header > div {
@@ -93,5 +94,10 @@ section div {
 .middle-img {
 	display: inline-block;
 	padding: 40px 0;
+	text-align: center;
+}
+
+footer {
+	padding: 20px 0 120px;
 	text-align: center;
 }
