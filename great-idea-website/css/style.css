@@ -1,5 +1,32 @@
 body {
 	width: 1024px;
+	padding: 0px 75px;
+}
+
+header > div {
+	display: inline-block;
+}
+
+nav {
+	padding: 40px 0;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+nav ul li:last-child {
+	right: 0;
+}
+
+nav a img {
+	float: right;
+	margin-top: -10px;
 }
 
 section {
