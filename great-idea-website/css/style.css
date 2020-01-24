@@ -1,0 +1,113 @@
+body {
+	width: 1024px;
+	padding: 0px 75px;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+header > div {
+	display: inline-block;
+}
+
+.header-content {
+	padding: 30px 0;
+}
+
+nav {
+	padding: 40px 0;
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+nav a {
+	float: right;
+	margin-top: -10px;
+}
+
+nav a::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.header-left {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	padding: 75px;
+	text-align: center;
+}
+
+.header-left h1 {
+	font-size: 5em;
+}
+
+.header-left button {
+	margin: 0 auto;
+	padding: 7px 45px;
+	background-color: transparent;
+	border: 1px solid rgb(100, 100, 100);
+	font-size: 1em;
+}
+
+.header-left button:hover {
+	color: red;
+	border: 1px solid red;
+}
+
+.header-right {
+	width: 49%;
+	display: inline-block;
+}
+
+.header-right img {
+	float: right;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+section {
+	border-top: 1px solid black;
+	padding: 40px 0;
+}
+
+section div {
+	display: inline-block;
+}
+
+.about-content p {
+	text-align: left;
+}
+
+.two-column {
+	width: 49%;
+}
+
+.three-column {
+	width: 33%;
+}
+
+.middle-img {
+	display: inline-block;
+	padding: 40px 0;
+	text-align: center;
+}
+
+footer {
+	padding: 20px 0 120px;
+	text-align: center;
+}
